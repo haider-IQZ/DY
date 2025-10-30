@@ -40,7 +40,7 @@ sudo apt install libgtk-4-dev yt-dlp ffmpeg
 ### Build
 
 ```bash
-git clone https://github.com/yourusername/dy.git
+git clone https://github.com/haider-IQZ/dy.git
 cd dy
 make
 ```
