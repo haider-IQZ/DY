@@ -53,6 +53,27 @@ make install
 
 This copies the binary to `~/.local/bin/dy`
 
+### Hyprland Keybind (Optional)
+
+Add this to your `~/.config/hypr/hyprland.conf` for quick access:
+
+```bash
+bind = $mainMod, Y, exec, ~/Projects/dy/dy
+```
+
+Or if you installed it:
+
+```bash
+bind = $mainMod, Y, exec, dy
+```
+
+Then press `Super + Y` to launch DY instantly!
+
+**Other Window Managers:**
+- **i3/Sway:** Add `bindsym $mod+y exec ~/Projects/dy/dy` to your config
+- **bspwm:** Add `super + y` binding in `~/.config/sxhkd/sxhkdrc`
+- **dwm:** Edit `config.h` and add keybind
+
 ## Usage
 
 Run the application:
