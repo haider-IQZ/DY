@@ -1,0 +1,17 @@
+# Binary
+dy
+
+# Object files
+*.o
+*.so
+*.a
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build artifacts
+*.out
