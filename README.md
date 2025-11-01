@@ -107,22 +107,7 @@ DY uses `yt-dlp` under the hood, which supports 1000+ sites including:
 - Twitch
 - And many more!
 
-## Why C?
-
-- **Simple** - No complex build systems, just `make`
-- **Fast** - Compiles in under a second
-- **Lightweight** - Small binary, minimal dependencies
-- **Reliable** - No runtime errors, no garbage collector
-- **Native** - Direct GTK4 bindings, no abstractions
 
 ## License
 
 MIT License - See LICENSE file for details
-
-## Contributing
-
-Pull requests welcome! This is a simple project to demonstrate clean C + GTK4 development.
-
-## Author
-
-Built with ❤️ and pure C
